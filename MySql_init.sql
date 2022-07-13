@@ -18,7 +18,7 @@ g_like_num int,
 g_state int CONSTRAINT g_state_check CHECK (g_state IN(0,1))
 );
 ALTER TABLE dishes ADD CONSTRAINT g_name_uq UNIQUE(g_name);
-ALTER TABLE dishes ADD CONSTRAINT g_price_check CHECK(g_price<100);
+ALTER TABLE dishes ADD CONSTRAINT g_price_check CHECK(g_price<=100);
 
 
 INSERT INTO dishes VALUES (null ,'大盘鸡',100,10,1);
