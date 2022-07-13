@@ -21,9 +21,9 @@ ALTER TABLE dishes ADD CONSTRAINT g_name_uq UNIQUE(g_name);
 ALTER TABLE dishes ADD CONSTRAINT g_price_check CHECK(g_price<=100);
 
 
-INSERT INTO dishes VALUES (null ,'大盘鸡',100,10,1);
-INSERT INTO dishes VALUES (null ,'羊肉串',3,20,1);
-INSERT INTO dishes VALUES (null ,'拌面',18,10,1);
+INSERT INTO dishes VALUES (null ,'大盘鸡',100,10,0);
+INSERT INTO dishes VALUES (null ,'羊肉串',3,20,0);
+INSERT INTO dishes VALUES (null ,'拌面',18,10,0);
 
 
 
