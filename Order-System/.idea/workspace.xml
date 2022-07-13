@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../MySql_init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../MySql_init.sql" afterDir="false" />
-    </list>
+    <list default="true" id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +87,8 @@
       <workItem from="1657653766247" duration="2005000" />
       <workItem from="1657682774173" duration="1049000" />
       <workItem from="1657684986528" duration="145000" />
+      <workItem from="1657685326970" duration="359000" />
+      <workItem from="1657685703858" duration="39000" />
     </task>
     <servers />
   </component>
