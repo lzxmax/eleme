@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/DishesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/Num.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/OrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/DishesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ViewAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ViewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/Dishes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/Users.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2Bql2hdkQ2l6qPd3W30xm2KCo3K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Git/eleme/Order-System/src/view/View.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\eleme\Order-System\src\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.asnc.dingcan.test.Test" />
+      <module name="Order-System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.asnc.dingcan.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="Order-System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test.Test" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="" />
+      <created>1657641295490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657641295490</updated>
+      <workItem from="1657641297992" duration="1676000" />
+      <workItem from="1657643004014" duration="267000" />
+      <workItem from="1657643288863" duration="7879000" />
+      <workItem from="1657653766247" duration="2005000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
