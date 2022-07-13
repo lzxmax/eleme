@@ -31,8 +31,7 @@ public class ViewUser implements Num{
 		System.out.println("*      8.返回上一级                                 *");
 		System.out.println("***********************************");
 		System.out.println(" 请输入您需要的服务：");
-
-		String index=in.nextLine();
+		String index=in.next();
 		switch (index) {
 			case "1":
 				showMenu();

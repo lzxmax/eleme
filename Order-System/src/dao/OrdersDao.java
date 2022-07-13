@@ -149,7 +149,7 @@ public class OrdersDao {
 			}
 			//===========================
 
-			String sql="insert into orders values (null,"+userNo+","+dishesid+","+num+",Sysdate,'"+address+"',0)";
+			String sql="insert into orders values (null,"+userNo+","+dishesid+","+num+",Sysdate(),'"+address+"',0)";
 			stmt.executeUpdate(sql);
 			DBUtil.closeAll(conn, stmt);
 		} catch (SQLException e) {
@@ -163,14 +163,14 @@ public class OrdersDao {
 	 * @return
 	 */
 	public double checkOrderPrice(String dishesid,int num) {
-		double price = 0;
+		int price = 0;
 		try {
 			Connection conn=DBUtil.getconn();
 			Statement stmt=conn.createStatement();
 			String sql="select g_price from dishes where g_no="+dishesid;
 			ResultSet rs=stmt.executeQuery(sql);
 			while(rs.next()) {
-				price=rs.getDouble(1);
+				price=rs.getInt(1);
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
