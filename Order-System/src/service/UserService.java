@@ -47,10 +47,8 @@ public class UserService implements Num{
 			return Tellerror;
 		}
 		else {
-			System.out.println("这里是rg1");
 			long tells=Long.parseLong(tell);
 			ud.insertUsers(user, pass, tells);
-			System.out.println("这里是rg2");
 			return Success;
 		}
 		

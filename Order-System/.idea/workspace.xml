@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DishesDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/Num.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/OrdersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/DishesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/OrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ViewAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ViewUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Dishes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySql_init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../MySql_init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,6 +87,8 @@
       <workItem from="1657643004014" duration="267000" />
       <workItem from="1657643288863" duration="7879000" />
       <workItem from="1657653766247" duration="2005000" />
+      <workItem from="1657682774173" duration="1049000" />
+      <workItem from="1657684986528" duration="145000" />
     </task>
     <servers />
   </component>

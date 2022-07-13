@@ -41,7 +41,6 @@ public class UserDao {
 
 	public Users selectByName(String user) {
 		Users u=new Users();
-		System.out.println("这里是userdao1");
 		try {
 			Connection conn=DBUtil.getconn();
 			Statement stmt=conn.createStatement();
@@ -61,7 +60,6 @@ public class UserDao {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("这里是userdao2");
 		return u;
 	}
 	
