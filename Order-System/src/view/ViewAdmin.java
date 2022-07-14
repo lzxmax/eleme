@@ -17,16 +17,16 @@ public class ViewAdmin implements Num{
 	public void viewAdmin() {
 		System.out.println("***********************************");
 		System.out.println("*                                 *");
-		System.out.println("*       欢迎进入饿了没管理员系统          *");
+		System.out.println("*       欢迎进入饿了没管理员系统       *");
 		System.out.println("*                                 *");
 		System.out.println("***********************************");
-		System.out.println("*        1.查看菜单信息                           *");
-		System.out.println("*        2.录入菜品                                  *");
-		System.out.println("*        3.修改菜品                                  *");
-		System.out.println("*        4.查看顾客订单                           *");
-		System.out.println("*        5.删除菜单                                  *");
-		System.out.println("*        6.配送菜单                                  *");
-		System.out.println("*        7.返回上一级                               *");
+		System.out.println("*        1.查看菜单信息              *");
+		System.out.println("*        2.录入菜品                 *");
+		System.out.println("*        3.修改菜品                 *");
+		System.out.println("*        4.查看顾客订单              *");
+		System.out.println("*        5.删除菜单                 *");
+		System.out.println("*        6.配送菜单                 *");
+		System.out.println("*        7.返回上一级               *");
 		System.out.println("***********************************");
 		System.out.println(" 请输入您需要的服务：");
 

@@ -18,17 +18,17 @@ public class ViewUser implements Num{
 	public void viewUser(String user) {
 		System.out.println("***********************************");
 		System.out.println("*                                 *");
-		System.out.println("*       欢迎进入饿了没用户系统              *");
+		System.out.println("*       欢迎进入饿了没用户系统         *");
 		System.out.println("*                                 *");
 		System.out.println("***********************************");
-		System.out.println("*      1.查看菜品信息                             *");
-		System.out.println("*      2.我要订餐                                    *");
-		System.out.println("*      3.查看订单                                    *");
-		System.out.println("*      4.签收订单                                    *");
-		System.out.println("*      5.取消订单                                    *");
-		System.out.println("*      6.我要点赞                                    *");
-		System.out.println("*      7.充值                                           *");
-		System.out.println("*      8.返回上一级                                 *");
+		System.out.println("*       1.查看菜品信息               *");
+		System.out.println("*      2.我要订餐                   *");
+		System.out.println("*      3.查看订单                   *");
+		System.out.println("*      4.签收订单                   *");
+		System.out.println("*      5.取消订单                   *");
+		System.out.println("*      6.我要点赞                   *");
+		System.out.println("*      7.充值                      *");
+		System.out.println("*      8.返回上一级                 *");
 		System.out.println("***********************************");
 		System.out.println(" 请输入您需要的服务：");
 		String index=in.next();

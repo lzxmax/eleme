@@ -19,11 +19,11 @@ public class View implements Num{
 		System.out.println("****************************************");
 		System.out.println("*                                      *");
 		System.out.println("*                                      *");
-		System.out.println("*          欢迎进入饿了没系统                                                 *");
+		System.out.println("*          欢迎进入饿了没系统              *");
 		System.out.println("*                                      *");
 		System.out.println("*                                      *");
 		System.out.println("****************************************");
-		System.out.println("*       1登陆           2注册           3退出                                         *");
+		System.out.println("       1登陆           2注册          3退出");
 		System.out.println("****************************************");
 		
 		String index=in.nextLine();
