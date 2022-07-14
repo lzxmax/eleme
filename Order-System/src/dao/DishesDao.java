@@ -123,7 +123,7 @@ public class DishesDao {
 		try {
 			Connection conn=DBUtil.getconn();
 			Statement stmt=conn.createStatement();
-			String sql="update dishes set g_state=decode(g_state,0,1,1,0) where g_no="+id;
+			String sql="update dishes set g_state=1-g_state where g_no="+id;
 			stmt.executeUpdate(sql);
 			DBUtil.closeAll(conn, stmt);
 		} catch (SQLException e) {

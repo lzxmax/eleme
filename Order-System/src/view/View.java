@@ -26,7 +26,7 @@ public class View implements Num{
 		System.out.println("       1登陆           2注册          3退出");
 		System.out.println("****************************************");
 		
-		String index=in.nextLine();
+		String index=in.next();
 		switch (index) {
 		case "1":
 			//登陆
@@ -51,9 +51,9 @@ public class View implements Num{
 	 */
 	public void login() {
 		System.out.println("请输入用户名：");
-		user=in.nextLine();
+		user=in.next();
 		System.out.println("请输入密码：");
-		pass=in.nextLine();
+		pass=in.next();
 		
 		switch (us.login(user, pass)) {
 		case Admin:
@@ -85,11 +85,11 @@ public class View implements Num{
 	public void register() {
 		
 		System.out.println("请输入用户名：");
-		String user=in.nextLine();
+		String user=in.next();
 		System.out.println("请输入密码：");
-		String pass=in.nextLine();
+		String pass=in.next();
 		System.out.println("请输入手机号：");
-		String tell=in.nextLine();
+		String tell=in.next();
 		
 		switch (us.register(user,pass,tell)) {
 		case Success:

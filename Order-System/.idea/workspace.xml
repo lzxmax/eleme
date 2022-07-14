@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/dao/DishesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DishesDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/ViewAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ViewAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ViewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ViewUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,11 @@
       <workItem from="1657707663845" duration="1654000" />
       <workItem from="1657730114031" duration="5138000" />
       <workItem from="1657737123811" duration="1714000" />
-      <workItem from="1657769963653" duration="237000" />
+      <workItem from="1657769963653" duration="575000" />
+      <workItem from="1657770558367" duration="43000" />
+      <workItem from="1657770868572" duration="913000" />
+      <workItem from="1657802907613" duration="977000" />
+      <workItem from="1657810419552" duration="1382000" />
     </task>
     <servers />
   </component>

@@ -30,7 +30,7 @@ public class ViewAdmin implements Num{
 		System.out.println("***********************************");
 		System.out.println(" 请输入您需要的服务：");
 
-		String index=in.nextLine();
+		String index=in.next();
 		switch (index) {
 		case "1":
 			showMenu();
@@ -74,7 +74,7 @@ public class ViewAdmin implements Num{
 	 */
 	public void setMenu() {
 		System.out.println("请输入菜品名称：");
-		String name=in.nextLine();
+		String name=in.next();
 		System.out.println("请输入菜品价格：");
 		int price=in.nextInt();
 
@@ -100,7 +100,7 @@ public class ViewAdmin implements Num{
 	public void updateDishes() {
 		showMenu();
 		System.out.println("请输入修改的菜品编号：");
-		String id=in.nextLine();
+		String id=in.next();
 		int index=ds.updateDishes(id);
 		switch (index) {
 		case Success:
@@ -121,7 +121,7 @@ public class ViewAdmin implements Num{
 	public void deleteDishes() {
 		showMenu();
 		System.out.println("请输入要删除的菜品编号：");
-		String id=in.nextLine();
+		String id=in.next();
 		int index=ds.deleteDishes(id);
 		switch (index) {
 		case Success:
@@ -155,7 +155,7 @@ public class ViewAdmin implements Num{
 			System.out.println(o.get(i));
 		}
 		System.out.println("请输入派送订单编号：");
-		String id=in.nextLine();
+		String id=in.next();
 		if(os.sendOrders(id)==Success) {
 			System.out.println(id+" 订单派送中。。。");
 		}else {
