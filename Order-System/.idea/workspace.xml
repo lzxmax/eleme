@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/dao/DishesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DishesDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ViewAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ViewAdmin.java" afterDir="false" />
-    </list>
+    <list default="true" id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +105,7 @@
       <workItem from="1657770868572" duration="913000" />
       <workItem from="1657802907613" duration="977000" />
       <workItem from="1657810419552" duration="1382000" />
+      <workItem from="1657813637417" duration="325000" />
     </task>
     <servers />
   </component>
