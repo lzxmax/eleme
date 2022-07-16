@@ -84,7 +84,7 @@ public class DishesDao {
 			DBUtil.closeAll(conn, stmt);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			 System.out.println("????????!");
+			 //System.out.println("????????!");
 			e.printStackTrace();
 		}
 	}

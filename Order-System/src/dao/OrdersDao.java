@@ -162,7 +162,7 @@ public class OrdersDao {
 	 * @param dishesid
 	 * @return
 	 */
-	public double checkOrderPrice(String dishesid,int num) {
+	public int checkOrderPrice(String dishesid,int num) {
 		int price = 0;
 		try {
 			Connection conn=DBUtil.getconn();

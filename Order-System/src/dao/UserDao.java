@@ -44,7 +44,7 @@ public class UserDao {
 		try {
 			Connection conn=DBUtil.getconn();
 			Statement stmt=conn.createStatement();
-			String sql=" select * from users where u_name= ' "  + user+" ' "   ;
+			String sql=" select * from users where u_name= '"  + user+"' "   ;
 			ResultSet rs=stmt.executeQuery(sql);
 			while(rs.next()){
 				u.setU_no(rs.getInt(1));
@@ -110,7 +110,7 @@ public class UserDao {
 		}
 	}
 
-	public void updateUserMoney(String user, double rechargeMoney) {
+	public void updateUserMoney(String user, int rechargeMoney) {
 		try {
 			Connection conn=DBUtil.getconn();
 			Statement stmt=conn.createStatement();

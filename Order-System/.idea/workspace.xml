@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="" />
+    <list default="true" id="24b9fcf3-c5b0-41c0-bd2f-4df8355a86ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/dao/DishesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DishesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/OrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/OrdersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ViewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ViewUser.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +25,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Bql2hdkQ2l6qPd3W30xm2KCo3K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -106,6 +112,11 @@
       <workItem from="1657802907613" duration="977000" />
       <workItem from="1657810419552" duration="1382000" />
       <workItem from="1657813637417" duration="325000" />
+      <workItem from="1657870598863" duration="2372000" />
+      <workItem from="1657875863273" duration="3826000" />
+      <workItem from="1657880035106" duration="489000" />
+      <workItem from="1657957251863" duration="2766000" />
+      <workItem from="1657978644078" duration="5515000" />
     </task>
     <servers />
   </component>

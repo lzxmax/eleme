@@ -191,7 +191,7 @@ public class ViewUser implements Num{
 	 */
 	public void recharge(String user) {
 		System.out.println("请输入要充值的数额，本系统只支持20,50,100元：");
-		double rechargeMoney=in.nextDouble();
+		int rechargeMoney=in.nextInt();
 		int index=us.recharge(user,rechargeMoney);
 		switch (index) {
 			case Success:

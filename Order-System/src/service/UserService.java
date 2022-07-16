@@ -82,7 +82,7 @@ public class UserService implements Num{
  * @param rechargeMoney
  * @return
  */
-	public int recharge(String user, double rechargeMoney) {
+	public int recharge(String user, int rechargeMoney) {
 		UserDao ud=new UserDao();
 		if(rechargeMoney==20 || rechargeMoney==50 || rechargeMoney==100) {
 			ud.updateUserMoney(user,rechargeMoney);
